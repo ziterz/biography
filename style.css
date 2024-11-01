@@ -33,6 +33,15 @@ nav>ul>li a {
   text-decoration: none;
 }
 
+.menu {
+  padding: 15px 20px;
+  border-radius: 0.5rem;
+}
+
+.menu:hover {
+  background-color: rgb(27 110 245);
+}
+
 .main-section {
   display: flex;
   justify-content: space-between;
@@ -114,4 +123,40 @@ legend {
 
 .journey-section>p {
   font-size: 2rem;
+}
+
+.video-section {
+  padding: 3rem;
+  gap: 4rem;
+  color: white;
+  text-align: center;
+}
+
+.video-section>h2 {
+  text-align: center;
+}
+
+.contact-section {
+  padding: 3rem;
+  gap: 4rem;
+  color: white;
+}
+
+.contact-section p {
+  font-size: 2rem;
+}
+.contact-section a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-section>pa:hover {
+  color: rgb(61 239 233);
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  gap: 2rem;
 }
