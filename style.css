@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(18 18 18);
+  ;
+}
+
+.inline {
+  display: inline;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2.25rem;
+  padding-top: 2.25rem;
+}
+
+header>h1 {
+  margin: 0;
+}
+
+nav>ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  gap: 20px;
+}
+
+nav>ul>li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu {
+  padding: 15px 20px;
+  border-radius: 0.5rem;
+}
+
+.menu:hover {
+  background-color: rgb(27 110 245);
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  gap: 4rem;
+}
+
+.main-section>img {
+  border-radius: 1.5rem;
+  width: 700px;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+legend {
+  margin-top: 3rem;
+}
+
+.text-cyan {
+  color: rgb(61 239 233);
+}
+
+.text-green {
+  color: rgb(107 217 104);
+}
+
+.text-orange {
+  color: rgb(254 204 27);
+}
+
+.text-blue {
+  color: rgb(72, 144, 224);
+}
+
+.btn {
+  border-radius: 0.5rem;
+  background-color: rgb(27 110 245);
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.bio-section {
+  padding: 3rem;
+  gap: 4rem;
+  color: white;
+}
+
+.bio-section>p {
+  font-size: 2rem;
+}
+
+.journey-section {
+  text-align: right;
+  padding: 3rem;
+  gap: 4rem;
+  color: white;
+}
+
+.journey-section>h2 {
+  text-align: right;
+}
+
+.journey-section>h4 {
+  font-size: 2.5rem;
+}
+
+.journey-section>p {
+  font-size: 2rem;
+}
+
+.video-section {
+  padding: 3rem;
+  gap: 4rem;
+  color: white;
+  text-align: center;
+}
+
+.video-section>h2 {
+  text-align: center;
+}
+
+.contact-section {
+  padding: 3rem;
+  gap: 4rem;
+  color: white;
+}
+
+.contact-section p {
+  font-size: 2rem;
+}
+.contact-section a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: rgb(61 239 233);
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  gap: 2rem;
+}
